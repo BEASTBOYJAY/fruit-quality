@@ -6,11 +6,13 @@ this the machine learning model in which I used RandomForesrClassifier and got s
 
 ## API Reference
 
-#### Get all items
+#### Get item
 
 ```http
-  GET / Pandas.
+ import pandas as pd
 ```
+
+
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
@@ -19,7 +21,7 @@ this the machine learning model in which I used RandomForesrClassifier and got s
 #### Get item
 
 ```http
-  GET /Sklearn/RandomForestClassifier
+  from sklearn.tree import RandomForestClassifier
 ```
 
 | Parameter | Type     | Description                       |
